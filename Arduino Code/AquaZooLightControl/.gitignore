@@ -1,0 +1,9 @@
+/.vs/
+/__vm/
+/Debug/
+/Release/
+/AquaZooLightControl.sln
+/AquaZooLightControl.vcxproj
+/AquaZooLightControl.vcxproj.filters
+/AquaZooLightControl.vcxproj.user
+/CppProperties.json
