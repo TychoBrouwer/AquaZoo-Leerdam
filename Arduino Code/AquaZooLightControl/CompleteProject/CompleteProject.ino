@@ -3,15 +3,19 @@
 
     This program was made with an Arduino Mega 2560 in mind.
     It uses a W5100 chip arduino ethernet shield to open a webserver.
-    For the timestamp it uses a DS3231 RTC
+    For the timestamp it uses a DS3231 RTC.
     On the webserver you are able to update I/O pins on the Arduino.
-    The last values of the I/O pins gets stored in EEPROM for saving after shutdown
+    The last values of the I/O pins gets stored in EEPROM for saving after shutdown.
     The program also logs a timestamp with any actions as a csv file to the SD-card on the ethernet shield.
-    And it displays certain values and errors on an lcd screen
+    And it displays certain values and errors on an lcd screen.
 
     Author: Tycho Brouwer
     School: Fortes Lyceum Gorinchem
     Client: AquaZoo Leerdam
+    Library's:
+        Regexp (Nick Gammon)
+        Neotimer (Jose Rullan)
+        ds3231 (Petre Rodan)
 */
 
 // Library for compatibility with the SPI protocol (which the Ethernet shield uses)
